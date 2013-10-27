@@ -1,4 +1,0 @@
-saber
-=====
-
-Saber para Crecer
