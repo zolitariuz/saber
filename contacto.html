@@ -51,22 +51,32 @@
 
 		<div class="main">
 
-			<div class="slider_home cycle-slideshow"
-
-				data-cycle-fx=scrollHorz
-				data-cycle-pager-template="<p><a href=#> {{slideNum}} </a></p>"
-
-			>
+			<div class="content cf programas">
 				
-				<img class="slide" src="images/slide_slim.jpg">
-				<img class="slide" src="images/slide_productos.jpg">
-				<img class="slide" src="images/slide_slim.jpg">
-				<img class="slide" src="images/slide_productos.jpg">
-				<img class="slide" src="images/slide_slim.jpg">
+				<h2>Contacto</h2>
 
-				<div class="cycle-pager"></div>
+				<form class="forma_contacto" action="http://www.saberparacrecer.org//contacto_recibido.html" method="post">
+	
+					<label for="nombre">Nombre</label>
+					<input type="text" name="nombre" id="nombre">
 
-			</div><!-- slider_home -->
+					<label for="email">E-mail</label>
+					<input type="text" name="email" id="email">
+
+					<label for="asunto">Asunto</label>
+					<input type="text" name="asunto" id="asunto">
+
+					<label for="mensaje">Mensaje</label>
+					<textarea name="mensaje" id="mensaje">
+					</textarea>
+
+					<input type="submit" value="enviar">
+	
+				</form>
+				
+				
+
+			</div><!-- content -->
 
 			<ul class="menu cf">
 				<li> <a href="http://www.saberparacrecer.org/">Inicio</a> </li>
