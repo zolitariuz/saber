@@ -137,11 +137,15 @@ h2{ margin: 0 0 10px 0; font-size: 35px; font-weight: bold; color: #0054A3; }
 
 /**** CONTACTO ****/
 
-.forma_contacto{}
-.forma_contacto label{}
-.forma_contacto input{}
-.forma_contacto textarea{}
-.forma_contacto input[type=submit]{ background: #0054A3; }
+.forma_contacto{ width: 60%; margin: 0 auto; }
+.forma_contacto label{ width: 19%; float: left; font-size: 16px; color: #0054A3; text-align: right; line-height: 30px; }
+.forma_contacto input{ width: 75%; margin: 0 0 10px 0; float: right;  }
+.forma_contacto input, textarea{ padding: 10px; border: 1px solid #0054A3; outline: none;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px; }
+.forma_contacto textarea{ width: 75%; height: 100px; margin: 0 0 10px 0; float: right; color: #0054A3; resize: none; }
+.forma_contacto input[type=submit]{ width: 100px; margin: 0 auto; display: block; padding: 5px; border: none; background: #0054A3; color: #fff; }
 
 
 

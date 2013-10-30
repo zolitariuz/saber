@@ -1,3 +1,20 @@
+<?php
+if ( isset($_POST['email']) )
+  {
+  //send email
+  $email = $_POST['email'] ;
+  $asunto = $_POST['asunto'] ;
+  $nombre = $_POST['nombre'] ;
+  $mensaje = $_POST['mensaje'] ;
+  mail("raul@zamacona.me", 'Mail de la página, ',
+  $message, "From:" . $email);
+  }
+else
+  {
+  echo "<h2>Hubo un error, por favor vuelve a intentarlo</h2>";
+  }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,32 +72,7 @@
 				
 				<h2>Contacto</h2>
 
-				<form class="forma_contacto cf" action="contacto-recibido.php" method="post">
-	
-					<label for="nombre">Nombre: </label>
-					<input type="text" name="nombre" id="nombre">
-
-					<div class="clear"></div>
-
-					<label for="email">E-mail: </label>
-					<input type="text" name="email" id="email">
-
-					<div class="clear"></div>
-
-					<label for="asunto">Asunto: </label>
-					<input type="text" name="asunto" id="asunto">
-
-					<div class="clear"></div>
-
-					<label for="mensaje">Mensaje: </label>
-					<textarea name="mensaje" id="mensaje">
-					</textarea>
-					
-					<div class="clear"></div>
-
-					<input type="submit" value="enviar">
-	
-				</form>
+				<h4>Gracias, nos pondrémos en contacto contigo.</h4>
 				
 				
 
@@ -88,7 +80,7 @@
 
 			<ul class="menu cf">
 				<li> <a href="http://www.saberparacrecer.org/">Inicio</a> </li>
-				<li> <a href="http://www.saberparacrecer.org/historia.html">Historia</a> </li>
+				<li> <a href="http://www.saberparacrecer.org//historia.html">Historia</a> </li>
 				<li> <a href="http://www.saberparacrecer.org/filosofia">Filosofía</a> </li>
 				<li> <a href="http://www.saberparacrecer.org/mision">Misión</a> </li>
 				<li> <a href="http://www.saberparacrecer.org/programa">Programa</a> </li>
