@@ -6,7 +6,7 @@ if ( isset($_POST['email']) )
   $asunto = $_POST['asunto'] ;
   $nombre = $_POST['nombre'] ;
   $mensaje = $_POST['mensaje'] ;
-  mail("raul@zamacona.me", 'Mail de la página, ',
+  mail("raul@zamacona.me, ugetorres@hotmail.com, gregoryph@yahoo.com.mx, analuisalo@hotmail.com", 'Mail , ',
   $message, "From:" . $email);
   }
 else
@@ -36,7 +36,7 @@ else
 
 			<div class="logo">
 				<h1>
-				  <a href="#">
+				  <a href="http://www.saberparacrecer.org/">
 				    <img src="images/logo_saber.png" alt="Saber para Crecer" />
 				  </a>
 				</h1>
@@ -47,18 +47,6 @@ else
 				<li>
 					<a href="#" target="_blank">
 						<img src="images/fb.png" alt="Facebook">
-					</a>
-				</li>
-
-				<li>
-					<a href="#" target="_blank">
-						<img src="images/tw.png" alt="Twitter">
-					</a>
-				</li>
-
-				<li>
-					<a href="#" target="_blank">
-						<img src="images/yt.png" alt="Youtube">
 					</a>
 				</li>
 			
@@ -81,10 +69,10 @@ else
 			<ul class="menu cf">
 				<li> <a href="http://www.saberparacrecer.org/">Inicio</a> </li>
 				<li> <a href="http://www.saberparacrecer.org//historia.html">Historia</a> </li>
-				<li> <a href="http://www.saberparacrecer.org/filosofia">Filosofía</a> </li>
-				<li> <a href="http://www.saberparacrecer.org/mision">Misión</a> </li>
-				<li> <a href="http://www.saberparacrecer.org/programa">Programa</a> </li>
-				<li> <a href="http://www.saberparacrecer.org/contacto">Contacto</a> </li>
+				<li> <a href="http://www.saberparacrecer.org/filosofia.html">Filosofía</a> </li>
+				<li> <a href="http://www.saberparacrecer.org/mision.html">Misión</a> </li>
+				<li> <a href="http://www.saberparacrecer.org/programa.html">Programa</a> </li>
+				<li> <a href="http://www.saberparacrecer.org/contacto.html">Contacto</a> </li>
 			</ul><!-- menu -->
 
 			<div class="galeria">
